@@ -1,0 +1,9 @@
+{
+  "name": "japa-challenge-manual",
+  "version": "1.0.0",
+  "main": "index.html",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

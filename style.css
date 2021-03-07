@@ -136,8 +136,6 @@ div.title-and-1st-para {
 .centered {
   text-align: center;
 }
-.word-by-word {
-}
 
 .word-by-word .word {
   display: flex;
@@ -163,10 +161,14 @@ div.title-and-1st-para {
   flex: 0 0 6in;
   margin-left: 0.08in;
 }
-/* 
 @page {
-  margin: 0.5in;
-  @bottom-left {
-    content: counter(page) '/' counter(pages);
+  @top-center {
+    content: "Vojtech Ruzicka's Programming Blog";
   }
-} */
+  @top-right-corner {
+    content: url(logo.png);
+  }
+  @bottom-right {
+    content: 'Page ' counter(page);
+  }
+}

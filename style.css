@@ -54,11 +54,28 @@
   font-style: italic;
 }
 
+html {
+  font-size: 100%;
+}
+
 body {
   font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B', 'Open Sans',
     Helvetica, Arial, sans-serif;
-  width: 8.5in;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+main {
+  padding: 0.5in 0.7in;
   margin: 0 auto;
+  width: 8.5in;
+  /* width: 100; */
 }
 
 header h1 {
@@ -74,17 +91,18 @@ h3 {
   font-weight: 400;
 }
 
-main {
-  padding: 0.5in 0.7in;
-}
-
-p.lesson-text {
+.lesson-text {
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 h3 {
   text-align: center;
+}
+
+p,
+li {
+  font-weight: 400;
 }
 /* 
 @page {

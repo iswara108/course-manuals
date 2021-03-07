@@ -72,7 +72,7 @@ body {
 }
 
 main {
-  padding: 0.5in 0.7in;
+  padding: 0 0.7in;
   margin: 0 auto;
   width: 8.5in;
   /* width: 100; */
@@ -86,9 +86,14 @@ header h1 {
 
 h2 {
   font-weight: 300;
+  margin-top: 0.5in;
 }
 h3 {
   font-weight: 400;
+}
+
+h2 + .lesson-text {
+  margin-top: 0.3in;
 }
 
 .lesson-text {
@@ -103,6 +108,10 @@ h3 {
 p,
 li {
   font-weight: 400;
+}
+
+li {
+  margin: 1rem 0;
 }
 /* 
 @page {

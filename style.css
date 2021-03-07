@@ -92,6 +92,10 @@ h3 {
   font-weight: 400;
 }
 
+h4 {
+  margin: 0.3in 0 -0.06in;
+}
+
 h2 + .lesson-text {
   margin-top: 0.3in;
 }

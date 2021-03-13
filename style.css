@@ -128,9 +128,20 @@ div.title-and-1st-para {
   break-inside: avoid;
 }
 
+.iast {
+  font-family: arial;
+}
+
 .devanagari-quote {
   font-size: 1.6rem;
   font-family: Karma;
+}
+
+.sutra-iast {
+  font-size: 1.4rem;
+}
+.sutra-iast .sutra {
+  font-weight: 100;
 }
 
 .centered {
@@ -161,6 +172,12 @@ div.title-and-1st-para {
   flex: 0 0 6in;
   margin-left: 0.08in;
 }
+
+.word-by-word .meaning--narrow {
+  flex: 0 0 4in;
+  margin-left: 0.08in;
+}
+
 @page {
   @top-center {
     content: "Vojtech Ruzicka's Programming Blog";

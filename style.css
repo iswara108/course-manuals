@@ -80,13 +80,13 @@ main {
 }
 
 header {
-    height: 100vh;
-    display:grid;
-    grid-template-rows: max-content 25% max-content 1fr 3%;
-    align-items: end;
-    justify-content:center;
-    justify-items:center;
-    page-break-after: always;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: max-content 25% max-content 1fr 3%;
+  align-items: end;
+  justify-content: center;
+  justify-items: center;
+  page-break-after: always;
 }
 
 header img[alt="Narada Muni"] {

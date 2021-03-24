@@ -80,14 +80,19 @@ main {
 }
 
 header div {
-  margin-top: 5in;
   display: flex;
   justify-content: center;
+  align-items: center;
   page-break-after: always;
+  height: 100vh;
+}
+
+header :is(h1, h2) {
+  text-align: center;
 }
 
 header div img {
-  width: 70%;
+  height: 45vh;
 }
 
 h1 {
@@ -204,7 +209,7 @@ div.title-and-1st-para {
 .word-by-word .dotted-space {
   flex: 1;
   position: relative;
-  bottom: 0.08in;
+  bottom: 0.03in;
   background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3cline x1='0' y1='80%' x2='100%25' y2='80%' fill='none' stroke='black' stroke-width='1.1' stroke-dasharray='1 4' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e");
 }
 

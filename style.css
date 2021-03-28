@@ -198,6 +198,7 @@ div.title-and-1st-para {
   display: flex;
   margin-bottom: 0.051in;
   position: relative;
+  word-break: break-all;
 }
 
 .word-by-word blockquote {

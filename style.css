@@ -208,7 +208,8 @@ div.title-and-1st-para {
   display: flex;
   margin-bottom: 0.051in;
   position: relative;
-  word-break: break-all;
+  word-break: break-word;
+  text-align: left;
 }
 
 .word-by-word blockquote {
